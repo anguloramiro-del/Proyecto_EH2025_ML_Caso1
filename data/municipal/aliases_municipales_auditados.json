@@ -1,0 +1,83 @@
+[
+  {
+    "geografia_ine": [
+      "Beni",
+      "Territorio Indígena Multiétnico",
+      "TIOC-Territorio Indígena Multiétnico"
+    ],
+    "codigo_udape": "080901",
+    "justificacion": "UDAPE provincia nula; municipio y mun_tioc identifican el TIOC TIM."
+  },
+  {
+    "geografia_ine": [
+      "Chuquisaca",
+      "Luis Calvo",
+      "Huacaya (Autonomía Guaraní Chaqueño de Huacaya)"
+    ],
+    "codigo_udape": "011002",
+    "justificacion": "INE incluye nombre de autonomía; UDAPE mun_tioc=Huacaya."
+  },
+  {
+    "geografia_ine": [
+      "La Paz",
+      "General José Manuel Pando",
+      "Catacora"
+    ],
+    "codigo_udape": "021902",
+    "justificacion": "UDAPE abrevia provincia como General Jose Manuel; mismo municipio."
+  },
+  {
+    "geografia_ine": [
+      "La Paz",
+      "General José Manuel Pando",
+      "Santiago de Machaca"
+    ],
+    "codigo_udape": "021901",
+    "justificacion": "UDAPE abrevia provincia como General Jose Manuel; mismo municipio."
+  },
+  {
+    "geografia_ine": [
+      "Oruro",
+      "Ladislao Cabrera",
+      "Salinas de Garci Mendoza (Autonomía Indígena Originario Campesina de Salinas)"
+    ],
+    "codigo_udape": "040801",
+    "justificacion": "INE incluye nombre de autonomía; mismo nombre base y jurisdicción."
+  },
+  {
+    "geografia_ine": [
+      "Oruro",
+      "Sabaya",
+      "Uru Chipaya (Nación Originaria Uru Chipaya)"
+    ],
+    "codigo_udape": "040903",
+    "justificacion": "INE incluye nombre de nación; UDAPE mun_tioc=Uru Chipaya y municipio=Chipaya."
+  },
+  {
+    "geografia_ine": [
+      "Potosí",
+      "Nor Chichas",
+      "Vitichi"
+    ],
+    "codigo_udape": "050602",
+    "justificacion": "UDAPE municipio=Vitichi; mun_tioc presenta variante Vitiche."
+  },
+  {
+    "geografia_ine": [
+      "Santa Cruz",
+      "Cordillera",
+      "Charagua (Autonomía Guaraní Charagua Iyambae)"
+    ],
+    "codigo_udape": "070702",
+    "justificacion": "INE incluye nombre de autonomía; UDAPE municipio y mun_tioc=Charagua."
+  },
+  {
+    "geografia_ine": [
+      "Santa Cruz",
+      "Cordillera",
+      "Gutiérrez (Autonomía Indígena Kereimba Iyaambae)"
+    ],
+    "codigo_udape": "070705",
+    "justificacion": "INE incluye nombre de autonomía; UDAPE mun_tioc=Gutiérrez."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "catalog_identity": "BOL-INE-EH-2025",
+  "catalog_url": "https://anda.ine.gob.bo/index.php/catalog/256",
+  "metadata_access_date": "2026-11-15",
+  "microdata_download_date": "2026-11-15",
+  "microdata_format": "sav",
+  "download_source_verified": true,
+  "cartography_source": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BOL/ADM1/geoBoundaries-BOL-ADM1_simplified.geojson",
+  "cartography_license": "CC BY 4.0 (geoBoundaries gbOpen); upstream Public Domain per API metadata",
+  "microdata_received_date": "2026-11-15",
+  "source_verification_method": "Procedencia ANDA y fecha declaradas por el usuario; estructura contrastada con metadatos por separado.",
+  "raw_module_files": {
+    "EH2025_Persona": "data/raw/EH2025_Persona.sav",
+    "EH2025_Vivienda": "data/raw/EH2025_Vivienda_1.sav"
+  },
+  "cartography_api_url": "https://www.geoboundaries.org/api/current/gbOpen/BOL/ADM1/",
+  "cartography_boundary_id": "BOL-ADM1-26024454",
+  "cartography_year_represented": "2015",
+  "cartography_access_date": "2026-11-15",
+  "cartography_geojson_path": "data/bolivia_departamentos.geojson",
+  "cartography_metadata_path": "data/metadata/cartography_source.json",
+  "cartography_attribution": "Cartografía referencial: GeoBolivia, datos de 2015, distribuida por geoBoundaries gbOpen (CC BY 4.0). Origen declarado Public Domain en los metadatos de geoBoundaries. Se añadieron códigos departamentales del INE y nombres normalizados; no se modificaron las geometrías. https://www.geoboundaries.org/",
+  "cartography_sha256": "e848f97e5386aac1b442189d9638e1e5138e0ab0c4c0a91a63066fda318a99d6",
+  "municipal_component": {
+    "status": "official_complementary_source",
+    "indicator_year": 2024,
+    "source_institutions": [
+      "INE",
+      "UDAPE"
+    ],
+    "source_pages": [
+      "https://www.ine.gob.bo/index.php/censos-educacion/",
+      "https://www.ine.gob.bo/index.php/estadisticas-economicas/censos-indicadores/",
+      "https://sigudape.udape.gob.bo/atlas2025/"
+    ],
+    "source_download_date": "2026-11-15",
+    "units": 343,
+    "unit_label": "municipios/TIOC",
+    "current_municipality_assigned_to_eh_persons": false,
+    "input": "data/municipal/municipios_censo2024_indicadores.csv",
+    "geometry": "data/bolivia_municipios_2024.geojson",
+    "crosswalk": "data/municipal/equivalencias_municipios_ine_udape.csv",
+    "source_metadata": "data/municipal/download_manifest.json"
+  }
+}

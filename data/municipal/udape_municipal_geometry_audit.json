@@ -1,0 +1,42 @@
+{
+  "source_page": "https://sigudape.udape.gob.bo/atlas2025/",
+  "institutional_explanation": "https://www.udape.gob.bo/colecciones",
+  "service_url": "https://sigudape.udape.gob.bo/geoserver/atlas2025/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=atlas2025%3Apg_v_nbi_2024&outputFormat=application%2Fjson&srsName=EPSG%3A4326",
+  "retrieval_date": "2026-11-15",
+  "source_sha256": "16f0e8ec7d39de34d3c44a79cf958aab22c45ccf28fede7f0b4fb7588980b1c9",
+  "source_feature_count": 343,
+  "code_field": "codigo",
+  "code_format": "Six-digit string with leading zero; departamento first two digits.",
+  "reference_crs": "WGS84/EPSG4326, lon lat requested from WFS; bounds verified for Bolivia.",
+  "bounds": [
+    -69.64493137,
+    -22.89804829,
+    -57.45443353,
+    -9.669633
+  ],
+  "source_invalid_geometries": 0,
+  "derived_invalid_geometries": 0,
+  "source_coverage_valid": false,
+  "simplification": {
+    "method": "Shapely simplify, preserve_topology=True, applied to each municipal geometry",
+    "tolerance_degrees": 0.0005,
+    "max_relative_planar_area_change": 0.002707085916281929,
+    "area_change_is_diagnostic_not_substantive_measure": true,
+    "shared_boundaries_preserved_exactly": false,
+    "warning": "La capa original no constituye cobertura topológicamente perfecta; la simplificación conserva cada unidad, no garantiza coincidencia exacta de bordes entre unidades. Solo referencia visual; no usar para áreas, perímetros, deslindes ni asignación individual."
+  },
+  "indicators_reference_year": 2024,
+  "geometry_vintage": "No explicit geometry year identified; published as municipal/TIOC layer in Atlas2025.",
+  "attribution": "Unidad de Análisis de Políticas Sociales y Económicas (UDAPE), Atlas2025; indicadores NBI basados en Censos INE2012 y2024.",
+  "license": {
+    "explicit_reuse_license": null,
+    "service_access_constraints": "NONE",
+    "service_fees": "NONE",
+    "site_footer": "Derechos Reservados | ©UDAPE2025",
+    "interpretation": "Acceso público al servicio verificado; no se afirma licencia abierta ni autorización irrestricta de redistribución."
+  },
+  "derived_file_sha256": "fc3d5aa12eeb982408c97324980a7dd1bfcac1e5f04a680e11133841e8a18a87",
+  "derived_file_bytes": 4064991,
+  "csv_file_sha256": "7a2d2a72e61ee3455e7aa06451b203365de50c8c8ef05bca1d526c80bdfa7bd2",
+  "municipal_person_assignment": "None; no EHperson records used or linked."
+}

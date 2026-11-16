@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "3020502_asistencia.xlsx",
+    "url": "https://nimbus.ine.gob.bo/index.php/s/o4WnYQoR38Zecyk/download",
+    "bytes": 951340,
+    "sha256": "645f3d8eb30c738d6129cef24ef55ea550cf06d33a0dfe3c3cc4921f86dc105c"
+  },
+  {
+    "filename": "3020504_promedio_estudio.xlsx",
+    "url": "https://nimbus.ine.gob.bo/index.php/s/p2wBM2H6oTajytF/download",
+    "bytes": 1160275,
+    "sha256": "aef7dd868358f56c12153d8e099ef8c938469e82a231b3acba2ad393b496a116"
+  },
+  {
+    "filename": "3110104_escolaridad_12_17.xlsx",
+    "url": "https://nimbus.ine.gob.bo/index.php/s/48tDmRnCCi8ponq/download",
+    "bytes": 749674,
+    "sha256": "d3e9260a8168f03303bfafd66806e97423b893da895cea713a7c1c2a51b10c2f"
+  },
+  {
+    "filename": "3110107_agua.xlsx",
+    "url": "https://nimbus.ine.gob.bo/index.php/s/sw8xwg2X7XcR6L3/download",
+    "bytes": 768567,
+    "sha256": "d9ca55002c840c32c0818e95986c32cde2d984d02e1d3d24241a8e6cfc953c65"
+  },
+  {
+    "filename": "3110108_saneamiento.xlsx",
+    "url": "https://nimbus.ine.gob.bo/index.php/s/ZntgBM4kdwG6Dg6/download",
+    "bytes": 2853571,
+    "sha256": "4412e1ad3fc9847644fc02c04941a7c0e07d98f352d39740bed55f7c26362b6e"
+  },
+  {
+    "filename": "3110109_electricidad.xlsx",
+    "url": "https://nimbus.ine.gob.bo/index.php/s/JHNWNoykMbZNWr5/download",
+    "bytes": 772570,
+    "sha256": "02d22e9874fbd55704866259df63cb598ae46e8560630aad8633f8f461789df2"
+  }
+]

@@ -1,0 +1,320 @@
+{
+  "module": "EH2025_Vivienda",
+  "column_names": [
+    "folio",
+    "depto",
+    "area",
+    "s06a_01",
+    "s06a_02",
+    "s06a_02e",
+    "s06a_02a",
+    "s06a_02b",
+    "s06a_03",
+    "s06a_03e",
+    "s06a_04",
+    "s06a_05",
+    "s06a_05e",
+    "s06a_06",
+    "s06a_06e",
+    "s06a_06a_1a",
+    "s06a_06a_1b",
+    "s06a_06a_2a",
+    "s06a_06a_2b",
+    "s06a_06a_3a",
+    "s06a_06a_3b",
+    "s06a_06a_4a",
+    "s06a_06a_4ae",
+    "s06a_06a_4b",
+    "s06a_06b_1a",
+    "s06a_06b_1b",
+    "s06a_06b_2a",
+    "s06a_06b_2b",
+    "s06a_06b_3a",
+    "s06a_06b_3b",
+    "s06a_06b_4a",
+    "s06a_06b_4b",
+    "s06a_06b_5a",
+    "s06a_06b_5ae",
+    "s06a_06b_5b",
+    "s06a_07",
+    "s06a_07e",
+    "s06a_08a",
+    "s06a_08b",
+    "s06a_08aa",
+    "s06a_09",
+    "s06a_10",
+    "s06a_11",
+    "s06a_12",
+    "s06a_12a",
+    "s06a_13",
+    "s06a_13e",
+    "s06a_13a",
+    "s06a_13b",
+    "s06a_13be",
+    "s06a_14",
+    "s06a_15",
+    "s06a_15e",
+    "s06a_15a",
+    "s06a_16",
+    "s06a_17",
+    "s06a_18",
+    "s06a_19",
+    "s06a_20",
+    "s06a_21",
+    "upm",
+    "estrato",
+    "factor",
+    "totper"
+  ],
+  "column_labels": [
+    "Id hogar anonimizado",
+    "Departamento",
+    "Urbana Rural",
+    "La vivienda es:",
+    "La vivienda que ocupa este hogar es:",
+    "La vivienda que ocupa el hogar es: ... Otra? (Especifique)",
+    "Si tuviese que pagar alquiler, ¿cuánto debería pagar mensualmente por concepto de alquiler de esta vivienda?",
+    "¿Cuánto paga mensualmente por concepto de alquiler de esta vivienda?",
+    "¿Cuál es el material de construcción más utilizado en las paredes de esta vivienda?",
+    "¿Cuál es el material de construcción más utilizado en las paredes de esta vivienda? OTRO (Especifique)",
+    "¿Las paredes interiores de esta vivienda tienen revoque?",
+    "¿Cuál es el material más utilizado en los techos de esta vivienda?",
+    "¿Cuál es el material más utilizado en los techos de esta vivienda? ...OTRO. (Especifique)",
+    "¿Cuál es el material más utilizado en los pisos de esta vivienda?",
+    "¿Cuál es el material más utilizado en los pisos de esta vivienda? ...OTRO. (Especifique)",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 1. Reparacion de techo, paredes, pisos? (Incluye pintado)",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 1. Reparacion de techo, paredes, pisos? (Incluye pintado) Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 2. Reparacion de Servicios Sanitarios, tuberias, pozos?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 2. Reparacion de servicio sanitario, tuberias, pozos?Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 3. Reparaciones electricas y de seguridad de la vivienda ?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 3. Reparaciones electricas y de seguridad de la vivienda?Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar realizo algun 4. Otro gasto en reparaciones de su vivienda?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en:4. Otro gasto en reparaciones de su vivienda? (Especifique)",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 4. [s01_a_22_4ae]?Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 1. Construccion y/o ampliacion de cuartos?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 1. Construccion y/o ampliacion de cuartos? Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 2. construccion de cercas o muros?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 2. construccion de cercas o muros?Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 3. Colocacion de machihembre, parquet, alfombra, tapizon?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 3. Colocacion de machihembre, parquet, alfombra, tapizon?Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 4. Colocacion de cortinas?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 4. Colocacion de cortinas?Monto en (Bs.) sin centavos",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar realizo algun 5. Otro gasto en nuevas construcciones o ampliaciones de su vivienda?",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en:5. Otro gasto en nuevas construcciones o ampliaciones de su vivienda? (Especifique)",
+    "Durante los ultimos doce meses, usted o alguno de los miembros de su hogar gasto dinero en: 5. Otro gasto [s01_a_23_5ae] en nuevas construcciones o ampliaciones de su vivienda?Monto en (Bs.) sin centavos",
+    "¿Principalmente ¿el agua que usan en la vivienda, proviene de...",
+    "¿Principalmente ¿el agua que usan en la vivienda, proviene de...Otro? (Especifique)",
+    "Generalmente, ¿cuántos dias a la semana tiene agua?",
+    "Generalmente, ¿cuántas horas al día?",
+    "¿Cuánto gastan normalmente en agua para uso del hogar al mes?",
+    "¿Qué tipo de baño, servicio sanitario o letrina utilizan normalmente los miembros de su hogar",
+    "¿El baño, servicio sanitario o letrina tiene desagüe…",
+    "¿El baño, servicio sanitario o letrina es…",
+    "¿Usa energía eléctrica para alumbrar esta vivienda?",
+    "¿Cuánto gastan normalmente por el servicio de energía eléctrica al mes?",
+    "¿Habitualmente que hace con la basura que genera el hogar?",
+    "¿Habitualmente que hace con la basura que genera el hogar? Otro. (Especifique)",
+    "Habitualmente en su hogar, ¿se recicla o separa la basura?",
+    "¿Qué tipo de basura recicla o separa?",
+    "¿Qué tipo de basura recicla o separa?  (Especifique)",
+    "¿Tiene un cuarto sólo para cocinar?",
+    "Principalmente ¿qué tipo de combustible o energía utiliza para cocinar preparar sus alimentos?",
+    "Principalmente ¿qué tipo de combustible o energía utiliza para cocinar preparar sus alimentos? 5.OTRO (Especifique)",
+    "¿Cuánto gastan normalmente en el combustible que utiliza para cocinar al mes?",
+    "¿Cuántos cuartos o habitaciones de esta vivienda ocupa su hogar, sin contar baño, cocina, lavandería, garage, depósito o negocio?",
+    "De estos cuartos o habitaciones, ¿cuántos usan exclusivamente para dormir?",
+    "¿El hogar dispone de línea telefónica fija?",
+    "¿Tiene el hogar acceso al servicio de internet en su vivienda?",
+    " ¿La conexión a internet es fija, móvil o de ambas?",
+    " El medio de conexión fija es por:",
+    "Unidad Primaria de Muestreo",
+    "Estrato",
+    "Factor de expansion Rev2025",
+    "Total de personas"
+  ],
+  "value_labels": {
+    "depto": {
+      "1.0": "Chuquisaca",
+      "2.0": "La Paz",
+      "3.0": "Cochabamba",
+      "4.0": "Oruro",
+      "5.0": "Potosí",
+      "6.0": "Tarija",
+      "7.0": "Santa Cruz",
+      "8.0": "Beni",
+      "9.0": "Pando"
+    },
+    "area": {
+      "1.0": "Urbano",
+      "2.0": "Rural"
+    },
+    "s06a_01": {
+      "1.0": "1. Casa",
+      "2.0": "2. Choza/ Pahuichi",
+      "3.0": "3. Departamento",
+      "4.0": "4. Cuarto(s) o habitacion(es) suelta(s)",
+      "5.0": "5. Vivienda improvisada o vivienda móvil",
+      "6.0": "6. Local no destinado para vivienda"
+    },
+    "s06a_02": {
+      "1.0": "1. ¿Propia y totalmente pagada?",
+      "2.0": "2. ¿Propia y la están pagando?",
+      "3.0": "3. ¿Alquilada?",
+      "4.0": "4. ¿En contrato Mixto (alquiler y anticretico)?",
+      "5.0": "5. ¿En contrato anticretico?",
+      "6.0": "6. ¿Cedida por servicios?",
+      "7.0": "7. ¿Prestada por parientes o amigos?",
+      "8.0": "8. ¿Otra?(Especifique)"
+    },
+    "s06a_03": {
+      "1.0": "1. LADRILLO/ BLOQUES DE CEMENTO/ HORMIGÓN",
+      "2.0": "2. ADOBE / TAPIAL",
+      "3.0": "3. TABIQUE/ QUINCHE",
+      "4.0": "4. PIEDRA",
+      "5.0": "5. MADERA",
+      "6.0": "6. CAÑA/ PALMA/ TRONCO",
+      "7.0": "7. OTRO (Especifique)"
+    },
+    "s06a_04": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_05": {
+      "1.0": "1. CALAMINA O PLANCHA",
+      "2.0": "2. TEJA (CEMENTO/ ARCILLA/ FIBROCEMENTO",
+      "3.0": "3. LOSA DE HORMIGÓN ARMADO",
+      "4.0": "4. PAJA/ CAÑA/ PALMA/ BARRO",
+      "5.0": "5. OTRO (Especifique)"
+    },
+    "s06a_06": {
+      "1.0": "1. TIERRA",
+      "2.0": "2. TABLÓN DE MADERA",
+      "3.0": "3. MACHIHEMBRE/PARQUET",
+      "4.0": "4. PISO FLOTANTE",
+      "5.0": "5. CEMENTO",
+      "6.0": "6. MOSAICO/BALDOSAS",
+      "7.0": "7. LADRILLO",
+      "8.0": "8. CERMICA PORCELANATO",
+      "9.0": "9. OTRO (Especifique)"
+    },
+    "s06a_06a_1a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06a_2a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06a_3a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06a_4a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06b_1a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06b_2a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06b_3a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06b_4a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_06b_5a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_07": {
+      "1.0": "1. Cañería de red dentro de la vivienda?",
+      "2.0": "2. Cañería de red fuera de la vivienda, pero dentro del lote o terreno?",
+      "3.0": "3. Pileta pública?",
+      "4.0": "4. Cosecha de agua de lluvia?",
+      "5.0": "5. Pozo excabado o perforado con bomba",
+      "6.0": "6. Pozo no protegido o sin bomba?",
+      "7.0": "7. Manantial o Vertiente protegida?",
+      "8.0": "8. Río/Acequia/Vertiente no protegida?",
+      "9.0": "9. Carro repartidor (Aguatero)?",
+      "10.0": "10. Otro? (Especifique)"
+    },
+    "s06a_09": {
+      "1.0": "1. Baño o letrina con descarga de agua",
+      "2.0": "2. Letrina de pozo ciego con piso",
+      "3.0": "3. Pozo abierto (pozo ciego sin piso)",
+      "4.0": "4. Baño ecológico (seco o de compostaje)",
+      "5.0": "5. Ninguno (Arbusto/Campo)"
+    },
+    "s06a_10": {
+      "1.0": "1. A la red de alcantarillado?",
+      "2.0": "2. A una cámara séptica?",
+      "3.0": "3. A un pozo de absorción?",
+      "4.0": "4. A la superficie (calle/quebrada/río)?",
+      "5.0": "5. No sabe?"
+    },
+    "s06a_11": {
+      "1.0": "1. Usado sólo por su hogar?",
+      "2.0": "2. Compartido con otros hogares?"
+    },
+    "s06a_12": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_13": {
+      "1.0": "1. LA TIRA AL RIO",
+      "2.0": "2. LA QUEMA",
+      "3.0": "3. LA TIRA EN UN TERRENO BALDÍO O A LA CALLE",
+      "4.0": "4. LA ENTIERRA",
+      "5.0": "5. LA DEPOSITA EN EL BASURERO PÚBLICO O CONTENEDOR",
+      "6.0": "6. UTILIZA EL SERVICIO PÚBLICO DE RECOLECCIÓN (Carro Basurero)",
+      "7.0": "7. OTRO (Especifique)"
+    },
+    "s06a_13a": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_14": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_15": {
+      "1.0": "1. LEÑA",
+      "2.0": "2. GUANO/BOSTA O TAQUIA",
+      "3.0": "3. GAS LICUADO (garrafa)",
+      "4.0": "4. GAS POR CAÑERIA (A DOMICILIO)",
+      "5.0": "5. OTRO (Especifique)",
+      "6.0": "6. ELECTRICIDAD",
+      "7.0": "7. NO COCINA"
+    },
+    "s06a_18": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_19": {
+      "1.0": "1. Si",
+      "2.0": "2. No"
+    },
+    "s06a_20": {
+      "1.0": "1. Solo fija(la conexión solo puede realizarse en la vivienda)",
+      "2.0": "2. Solo móvil (la conexión es mediante red móvil como celular o modem USB, por cualquiera de los miembros del hogar",
+      "3.0": "3. Ambas(fija y móvil)",
+      "4.0": "4. NO SABE"
+    },
+    "s06a_21": {
+      "1.0": "1. Cable de red (como: fibra óptica como ENTEL, TIGO; o línea telefónica como COTEL, COMTECO, COTAS)?",
+      "2.0": "2. Satelital(por una antena parabólica se accede a Internet del satélite \"Tupak Katari\")",
+      "3.0": "3. Conexión inalámbrica (por una antena o dispositivo inalámbrico se recibe señal, como Internet LTE Fijo inalámbrico de",
+      "4.0": "4. Fija compartida (entre vecinos u otros hogares)?",
+      "5.0": "5. NO SABE"
+    }
+  },
+  "user_missing_rules": {},
+  "encoding": "windows-1252"
+}

@@ -1,0 +1,207 @@
+{
+  "provider": "geoBoundaries gbOpen / William & Mary geoLab",
+  "upstream_source": "GeoBolivia, Derived from ADM3 layer",
+  "api_url": "https://www.geoboundaries.org/api/current/gbOpen/BOL/ADM1/",
+  "api_snapshot_file": "data/metadata/cartography_api_response.json",
+  "api_snapshot_sha256": "59120db2afdc697821a764162e10214327b7e49ab42316c79ca931c675553ba0",
+  "boundary_id": "BOL-ADM1-26024454",
+  "boundary_year_represented": "2015",
+  "source_data_update_date": "Thu Jan 19 07:31:04 2023",
+  "provider_build_date": "Dec 12, 2023",
+  "git_commit": "9469f09592ced973a3448cf66b6100b741b64c0d",
+  "api_declared_download_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BOL/ADM1/geoBoundaries-BOL-ADM1_simplified.geojson",
+  "resolved_commit_pinned_download_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BOL/ADM1/geoBoundaries-BOL-ADM1_simplified.geojson",
+  "source_geometry_variant": "Provider's simplified GeoJSON",
+  "raw_source_file": "data/metadata/cartography_source_original.geojson",
+  "raw_source_sha256": "8bb31745f9e9fcf06cff7a423ebdc9934dc7d4c0d925856a7efb237f9fb915da",
+  "normalized_geojson_file": "data/bolivia_departamentos.geojson",
+  "normalized_geojson_sha256": "e848f97e5386aac1b442189d9638e1e5138e0ab0c4c0a91a63066fda318a99d6",
+  "review_and_build_date": "2026-11-15",
+  "review_and_build_at_utc": "2026-11-16T00:56:17.743249+00:00",
+  "downloaded_during_this_execution": {
+    "api": false,
+    "geometry": false
+  },
+  "upstream_license": {
+    "name": "Public Domain",
+    "detail": "Public Domain; free use and access to information",
+    "source_url_as_recorded_by_provider": "geo.gob.bo/geonetwork/srv/spa/catalog.search#/metadata/aeeb85a9-23df-48d4-a4e5-dd19e8b206db",
+    "verification_scope": "Public Domain is the upstream license recorded in the primary geoBoundaries API. The original GeoBolivia metadata URL was not reachable during this review."
+  },
+  "distribution_license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "spdx": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "provider_license_statement_url": "https://www.geoboundaries.org/index.html#usage",
+    "api_license_documentation_url": "https://www.geoboundaries.org/api.html",
+    "attribution_required": true
+  },
+  "attribution": "Cartografía referencial: GeoBolivia, datos de 2015, distribuida por geoBoundaries gbOpen (CC BY 4.0). Origen declarado Public Domain en los metadatos de geoBoundaries. Se añadieron códigos departamentales del INE y nombres normalizados; no se modificaron las geometrías. https://www.geoboundaries.org/",
+  "recommended_citation": "Runfola, D., et al. (2020). geoBoundaries: A global database of political administrative boundaries. PLoS ONE, 15(4), e0231866. https://doi.org/10.1371/journal.pone.0231866",
+  "transformations": [
+    "Selected the provider's pre-simplified ADM1 geometry pinned to the documented commit.",
+    "Matched source department names to INE EH2025 depto codes 1–9.",
+    "Added properties.depto, properties.nombre and string feature.id; sorted by code.",
+    "Preserved all source geometry coordinates and original shape properties."
+  ],
+  "scope": "Reference layer for locating nine departments. Geometry year is 2015; it is not an INE 2025 boundary certification, a source of EH2025 indicators or a basis for municipal estimates or legal boundary claims.",
+  "validation": {
+    "feature_count": 9,
+    "unique_department_codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_geometries_valid": true,
+    "all_geometries_nonempty": true,
+    "geometry_types": {
+      "Polygon": 6,
+      "MultiPolygon": 3
+    },
+    "bounds_lonlat": [
+      -69.6452460357648,
+      -22.906568378770064,
+      -57.454433527709995,
+      -9.669633002177589
+    ],
+    "coordinate_interpretation": "GeoJSON longitude/latitude; geographic bounds checked.",
+    "geometry_coordinates_changed": false,
+    "geometry_repairs_performed": false,
+    "department_code_source": "https://anda.ine.gob.bo/index.php/catalog/256/variable/F27/V1956?name=depto",
+    "per_department": [
+      {
+        "depto": 1,
+        "nombre": "Chuquisaca",
+        "geometry_type": "Polygon",
+        "bounds_lonlat": [
+          -65.69551744640451,
+          -21.51732302122077,
+          -62.17937129443431,
+          -18.347263778921896
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 2,
+        "nombre": "La Paz",
+        "geometry_type": "MultiPolygon",
+        "bounds_lonlat": [
+          -69.6452460357648,
+          -18.046855753872492,
+          -66.73211343187673,
+          -11.849681119915543
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 3,
+        "nombre": "Cochabamba",
+        "geometry_type": "Polygon",
+        "bounds_lonlat": [
+          -67.00574190369039,
+          -18.681805691312025,
+          -64.23410582473191,
+          -15.779917435724942
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 4,
+        "nombre": "Oruro",
+        "geometry_type": "MultiPolygon",
+        "bounds_lonlat": [
+          -69.14234131144809,
+          -19.88670988670621,
+          -66.08610411761165,
+          -17.324034885628425
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 5,
+        "nombre": "Potosí",
+        "geometry_type": "MultiPolygon",
+        "bounds_lonlat": [
+          -68.77387327773442,
+          -22.906568378770064,
+          -64.71438740681138,
+          -17.807111058752866
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 6,
+        "nombre": "Tarija",
+        "geometry_type": "Polygon",
+        "bounds_lonlat": [
+          -65.41991237000398,
+          -22.882762321577676,
+          -62.26066515925376,
+          -20.885922844222026
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 7,
+        "nombre": "Santa Cruz",
+        "geometry_type": "Polygon",
+        "bounds_lonlat": [
+          -64.84241285590971,
+          -20.473213626024133,
+          -57.454433527709995,
+          -13.475763080924894
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 8,
+        "nombre": "Beni",
+        "geometry_type": "Polygon",
+        "bounds_lonlat": [
+          -67.56217286363439,
+          -16.491651133446183,
+          -61.5279301739392,
+          -10.38121790476235
+        ],
+        "is_valid": true
+      },
+      {
+        "depto": 9,
+        "nombre": "Pando",
+        "geometry_type": "Polygon",
+        "bounds_lonlat": [
+          -69.57474763891983,
+          -12.498439765481182,
+          -65.28681028381548,
+          -9.669633002177589
+        ],
+        "is_valid": true
+      }
+    ],
+    "validation_software": {
+      "shapely": "2.2.0"
+    }
+  },
+  "source_manifest_update": {
+    "noncartography_fields_preserved": true,
+    "noncartography_fields_sha256": "22d300f0e7b65a4e86f64c1310077933cacf35010965b7f7604d406809454f0e",
+    "cartography_fields_written": [
+      "cartography_access_date",
+      "cartography_api_url",
+      "cartography_attribution",
+      "cartography_boundary_id",
+      "cartography_geojson_path",
+      "cartography_license",
+      "cartography_metadata_path",
+      "cartography_sha256",
+      "cartography_source",
+      "cartography_year_represented"
+    ]
+  }
+}

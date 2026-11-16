@@ -1,0 +1,90 @@
+{
+  "anio": 2024,
+  "unidad": "municipio/TIOC",
+  "filas": 343,
+  "duplicados_codigo": 0,
+  "union_exacta_normalizada": 334,
+  "union_alias_explicito": 9,
+  "sin_union": 0,
+  "valores_imputados": 0,
+  "controles_nacionales": [
+    {
+      "control": "poblacion_12_17_educacion",
+      "suma_municipal": 1265155,
+      "total_nacional_publicado": 1265155,
+      "cumple": true
+    },
+    {
+      "control": "poblacion_19_mas_educacion",
+      "suma_municipal": 7350282,
+      "total_nacional_publicado": 7350282,
+      "cumple": true
+    },
+    {
+      "control": "poblacion_12_17_escolaridad",
+      "suma_municipal": 1270984,
+      "total_nacional_publicado": 1270984,
+      "cumple": true
+    },
+    {
+      "control": "poblacion_viviendas_particulares",
+      "suma_municipal": 11134130,
+      "total_nacional_publicado": 11134130,
+      "cumple": true
+    },
+    {
+      "control": "poblacion_12_17_viviendas_particulares",
+      "suma_municipal": 1272725,
+      "total_nacional_publicado": 1272725,
+      "cumple": true
+    },
+    {
+      "control": "asistencia_12_17_pct",
+      "reconstruida": 93.30919926807387,
+      "nacional_publicada": 93.30919926807387,
+      "cumple": true
+    }
+  ],
+  "no_asistencia_12_17_n_nacional": 84649,
+  "faltantes_por_columna": {
+    "departamento": 0,
+    "provincia": 0,
+    "municipio_tioc": 0,
+    "codigo_municipio": 0,
+    "anio_censo": 0,
+    "poblacion_12_17_educacion": 0,
+    "poblacion_12_17_hombres": 0,
+    "poblacion_12_17_mujeres": 0,
+    "asistencia_12_17_pct": 0,
+    "no_asistencia_12_17_pct": 0,
+    "no_asistencia_12_17_n": 0,
+    "asistencia_12_17_hombres_pct": 0,
+    "asistencia_12_17_mujeres_pct": 0,
+    "poblacion_12_17_urbana": 0,
+    "poblacion_12_17_rural": 0,
+    "ruralidad_12_17_pct": 0,
+    "asistencia_12_17_urbana_pct": 158,
+    "asistencia_12_17_rural_pct": 1,
+    "fila_asistencia_ine": 0,
+    "poblacion_19_mas_educacion": 0,
+    "anios_estudio_19_mas": 0,
+    "anios_estudio_19_mas_hombres": 0,
+    "anios_estudio_19_mas_mujeres": 0,
+    "fila_promedio_estudio_ine": 0,
+    "poblacion_12_17_escolaridad": 0,
+    "escolaridad_6_anios_12_17_pct": 0,
+    "fila_escolaridad_ine": 0,
+    "agua_mejorada_total_pct": 0,
+    "agua_mejorada_12_17_pct": 0,
+    "fila_agua_mejorada_ine": 0,
+    "poblacion_viviendas_particulares": 0,
+    "poblacion_12_17_viviendas_particulares": 0,
+    "electricidad_total_pct": 0,
+    "electricidad_12_17_pct": 0,
+    "fila_electricidad_ine": 0,
+    "saneamiento_seguro_total_pct": 0,
+    "saneamiento_seguro_12_17_pct": 0,
+    "fila_saneamiento_ine": 0
+  },
+  "advertencia": "No se vinculan individuos EH2025 con estos municipios. No asistencia censal no demuestra abandono longitudinal. Los denominadores de asistencia, escolaridad y servicios no son intercambiables."
+}
