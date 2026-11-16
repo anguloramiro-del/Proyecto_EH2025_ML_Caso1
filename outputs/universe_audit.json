@@ -1,0 +1,15 @@
+{
+  "age_min": 12,
+  "age_max": 17,
+  "universe_is_analytical_choice": true,
+  "n_joined": 39485,
+  "n_age_eligible": 4731,
+  "n_target_missing": 0,
+  "n_not_enrolled": 161,
+  "n_attending": 4562,
+  "n_enrolled_not_attending": 8,
+  "not_longitudinal_dropout": true,
+  "n_labelled": 4731,
+  "secondary_complete_sensitivity_pending": false,
+  "secondary_complete_sensitivity_result": "outputs/sensitivity.json"
+}

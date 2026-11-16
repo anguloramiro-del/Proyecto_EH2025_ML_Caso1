@@ -1,0 +1,27 @@
+{
+  "analysis_records": 4731,
+  "predictor_missing_counts": {
+    "s01a_03": 0,
+    "yhogpc": 1,
+    "hh_totper": 0,
+    "s01a_02": 0,
+    "depto": 0,
+    "area": 0,
+    "hh_s06a_07": 0,
+    "hh_s06a_09": 0,
+    "hh_s06a_10": 1274,
+    "hh_s06a_12": 0
+  },
+  "target_missing": 0,
+  "positive_target_count": 169,
+  "valid_positive_weights": true,
+  "upm_count": 1047,
+  "secondary_complete_or_higher_count": 13,
+  "interpretation": "Universo propuesto12–17; no asistencia transversal, no abandono longitudinal.",
+  "all_seven_schemas_match_dictionary": true,
+  "sanitation_missing_review": {
+    "n_missing": 1274,
+    "pattern": "Falta desagüe en todos los tipos sanitarios distintos de baño con descarga de agua y en ninguno de este último.",
+    "interpretation": "Patrón compatible con salto de cuestionario; confirmar flujo antes de clasificarlo como error."
+  }
+}

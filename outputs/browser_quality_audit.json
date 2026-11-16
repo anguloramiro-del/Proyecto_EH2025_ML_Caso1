@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "charts": 13,
+  "checked": [
+    {
+      "file": "outputs/figures/01_mapa_no_asistencia.html",
+      "traces": 85,
+      "visible": 85
+    },
+    {
+      "file": "outputs/figures/02_area_sexo_ic.html",
+      "traces": 2,
+      "visible": 2
+    },
+    {
+      "file": "outputs/figures/03_edad_area_ic.html",
+      "traces": 2,
+      "visible": 2
+    },
+    {
+      "file": "outputs/figures/04_edad_tasa_ic.html",
+      "traces": 1,
+      "visible": 1
+    },
+    {
+      "file": "outputs/figures/05_clusters_pca_centroides.html",
+      "traces": 4,
+      "visible": 4
+    },
+    {
+      "file": "outputs/figures/06_clusters_perfiles.html",
+      "traces": 1,
+      "visible": 1
+    },
+    {
+      "file": "outputs/figures/07_clusters_tasas_ic.html",
+      "traces": 4,
+      "visible": 4
+    },
+    {
+      "file": "outputs/model_evaluation/figures/confusion_matrices.html",
+      "traces": 4,
+      "visible": 4
+    },
+    {
+      "file": "outputs/model_evaluation/figures/feature_importances.html",
+      "traces": 2,
+      "visible": 2
+    },
+    {
+      "file": "outputs/model_evaluation/figures/roc_precision_recall.html",
+      "traces": 4,
+      "visible": 4
+    },
+    {
+      "file": "outputs/municipal/mapa_municipal_2024.html",
+      "traces": 863,
+      "visible": 430,
+      "profile_visible": 433,
+      "hover_contains_code": true
+    },
+    {
+      "file": "outputs/municipal/pca_municipal_2024.html",
+      "traces": 5,
+      "visible": 5
+    },
+    {
+      "file": "outputs/municipal/perfiles_municipales_2024.html",
+      "traces": 1,
+      "visible": 1
+    }
+  ],
+  "portal_options": 13,
+  "portal_selector": "passed",
+  "eda_loaded": true,
+  "javascript_errors": [],
+  "external_network_requests": []
+}
