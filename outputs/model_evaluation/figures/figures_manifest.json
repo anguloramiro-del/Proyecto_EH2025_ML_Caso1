@@ -1,0 +1,12 @@
+{
+  "artifacts": [
+    "/private/tmp/eh2025_cierre_stage/Proyecto_EH2025_ML_Caso1/outputs/model_evaluation/figures/roc_precision_recall.png",
+    "/private/tmp/eh2025_cierre_stage/Proyecto_EH2025_ML_Caso1/outputs/model_evaluation/figures/roc_precision_recall.html",
+    "/private/tmp/eh2025_cierre_stage/Proyecto_EH2025_ML_Caso1/outputs/model_evaluation/figures/confusion_matrices.png",
+    "/private/tmp/eh2025_cierre_stage/Proyecto_EH2025_ML_Caso1/outputs/model_evaluation/figures/confusion_matrices.html",
+    "/private/tmp/eh2025_cierre_stage/Proyecto_EH2025_ML_Caso1/outputs/model_evaluation/figures/feature_importances.png",
+    "/private/tmp/eh2025_cierre_stage/Proyecto_EH2025_ML_Caso1/outputs/model_evaluation/figures/feature_importances.html"
+  ],
+  "source": "model_metrics.json e importancias agregadas",
+  "individual_predictions_published": false
+}

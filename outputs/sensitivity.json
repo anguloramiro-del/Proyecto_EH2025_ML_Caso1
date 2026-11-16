@@ -1,0 +1,11 @@
+{
+  "full_n": 4731,
+  "full_positive": 169,
+  "full_rate_weighted": 0.041568553986869004,
+  "excluded_complete_secondary_n": 13,
+  "excluded_positive": 11,
+  "restricted_n": 4718,
+  "restricted_positive": 158,
+  "restricted_rate_weighted": 0.03716906163129305,
+  "scope": "Sensibilidad descriptiva; sin reentrenamiento ni selección de modelos."
+}

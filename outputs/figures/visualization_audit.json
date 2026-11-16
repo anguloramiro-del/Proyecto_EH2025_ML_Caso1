@@ -1,0 +1,85 @@
+{
+  "interactive_visualizations": [
+    "01_mapa_no_asistencia.html",
+    "02_area_sexo_ic.html",
+    "03_edad_area_ic.html",
+    "04_edad_tasa_ic.html",
+    "05_clusters_pca_centroides.html",
+    "06_clusters_perfiles.html",
+    "07_clusters_tasas_ic.html"
+  ],
+  "static_figures": [
+    "01_mapa_no_asistencia.png",
+    "02_area_sexo_ic.png",
+    "03_edad_area_ic.png",
+    "04_edad_tasa_ic.png",
+    "05_clusters_pca_centroides.png",
+    "06_clusters_perfiles.png",
+    "07_clusters_tasas_ic.png"
+  ],
+  "count": 7,
+  "source": "Fuente: INE, EH2025. Descarga: 2026-11-15. Universo propuesto 12–17 años. No asistencia, no abandono longitudinal.",
+  "privacy": "Todos los archivos públicos contienen agregados. PCA de centroides; sin registros individuales, IDs o coordenadas individuales.",
+  "rates": "Tasa ponderada de no asistencia, no abandono longitudinal. IC95% aproximado por linealización Taylor de una razón, estratos y UPM, sin FPC. En los estratos solitarios 322 y 821, la varianza estricta no es estimable. Las columnas adjusted aplican la convención explícita lonely-PSU adjust, centrando scores UPM en su media global; no son intervalos oficiales. Se conserva la muestra completa con contribución cero fuera del dominio. Grados de libertad del IC: UPM menos estratos representados en el dominio. La garantía de precisión del diseño para pobreza no se traslada al subgrupo educativo. Supresión de tasas con n<30: regla del proyecto.",
+  "cv": "Diseño INE EH2025, PDF p.12: óptimo CV<10%; bueno 10–15%; regular 16–20%; CV>20% indicador sujeto a evaluación (rótulo del documento: No significativo). Ese rótulo no representa una prueba de hipótesis. Se operacionalizan bandas continuas <10, 10–15, >15–20 y >20 para no dejar sin clasificar el intervalo 15–16. Las dos bandas superiores se identifican como precaución y sujeto a evaluación, respectivamente.",
+  "geography": "Beni y Pando: única estimación conjunta replicada visualmente en ambos polígonos; municipio actual no identificado.",
+  "map_external_requests": "Ninguna: polígonos GeoJSON incrustados con trazas cartesianas, sin basemap/topojson/teselas externas.",
+  "municipal_clustering_requirement_satisfied": false,
+  "clustering": {
+    "unit": "individuos de 12–17 años con etiqueta conocida",
+    "selected_k": 4,
+    "silhouette_unweighted_sample": 0.28685938037969244,
+    "candidate_k": [
+      {
+        "k": 2,
+        "silhouette_unweighted_sample": 0.25898908826896244,
+        "min_group_sample_n": 1887,
+        "accepted": true
+      },
+      {
+        "k": 3,
+        "silhouette_unweighted_sample": 0.28001042613004984,
+        "min_group_sample_n": 1221,
+        "accepted": true
+      },
+      {
+        "k": 4,
+        "silhouette_unweighted_sample": 0.28685938037969244,
+        "min_group_sample_n": 738,
+        "accepted": true
+      },
+      {
+        "k": 5,
+        "silhouette_unweighted_sample": 0.2602049754450191,
+        "min_group_sample_n": 554,
+        "accepted": true
+      }
+    ],
+    "features": [
+      "edad",
+      "log1p del ingreso per cápita",
+      "tamaño del hogar"
+    ],
+    "target_used_to_fit": false,
+    "geography_used_to_fit": false,
+    "preprocessing": "Negativos/no finitos a faltante; mediana muestral no ponderada para imputación; log1p ingreso; estandarización ponderada.",
+    "weighted_kmeans": true,
+    "selection": "Mayor silhouette no ponderada sobre hasta 2000 registros, semilla 2026, entre k=2–5 con cada grupo n>=30.",
+    "pca": "PCA ponderado de las tres variables estandarizadas; solo centroides agregados publicados.",
+    "pca_explained_variance": [
+      0.42466179787024827,
+      0.32828639691105965,
+      0.24705180521869205
+    ],
+    "cluster_labels": "Ordenados por ingreso medio, no por riesgo; números sin significado ordinal de política.",
+    "interpretation_limitations": [
+      "Segmentación descriptiva dependiente de variables y transformaciones; no diagnóstico ni riesgo causal.",
+      "Silhouette mide separación geométrica, no validez causal ni estabilidad temporal.",
+      "Las tasas dentro de grupos aprendidos son exploratorias; los IC de razón ajustados por los dos estratos solitarios no incorporan incertidumbre de la selección de k ni del aprendizaje de grupos.",
+      "No es clustering municipal; no se identifica municipio de residencia actual.",
+      "Las filas de personas y sus coordenadas PCA no se exportan en archivos públicos."
+    ]
+  },
+  "cartography_source": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BOL/ADM1/geoBoundaries-BOL-ADM1_simplified.geojson",
+  "cartography_license": "CC BY 4.0 (geoBoundaries gbOpen); upstream Public Domain per API metadata"
+}

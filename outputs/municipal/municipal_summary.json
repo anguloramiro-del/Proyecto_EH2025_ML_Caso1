@@ -1,0 +1,329 @@
+{
+  "unit": "municipio/TIOC",
+  "reference_year": 2024,
+  "rows": 343,
+  "input_validation": {
+    "rows": 343,
+    "unique_codes": 343,
+    "geometry_features": 343,
+    "geometry_invalid": 0,
+    "missing_clustering_features": 0,
+    "imputed_values": 0,
+    "national_totals_by_original_universe": {
+      "poblacion_12_17_educacion": 1265155,
+      "no_asistencia_12_17_n": 84649,
+      "poblacion_19_mas_educacion": 7350282,
+      "poblacion_12_17_escolaridad": 1270984,
+      "poblacion_12_17_viviendas_particulares": 1272725
+    }
+  },
+  "source_csv": "data/municipal/municipios_censo2024_indicadores.csv",
+  "source_sha256": "78d0872e49c887787f11520ea8118b774de09e1cd0f9ce11ee67ec6f77372463",
+  "geometry_sha256": "fc3d5aa12eeb982408c97324980a7dd1bfcac1e5f04a680e11133841e8a18a87",
+  "source_urls": [
+    "https://www.ine.gob.bo/index.php/censos-educacion/",
+    "https://www.ine.gob.bo/index.php/estadisticas-economicas/censos-indicadores/",
+    "https://sigudape.udape.gob.bo/atlas2025/"
+  ],
+  "features": [
+    "no_asistencia_12_17_pct",
+    "ruralidad_12_17_pct",
+    "anios_estudio_19_mas",
+    "sin_agua_mejorada_12_17_pct"
+  ],
+  "feature_labels": [
+    "No asistencia 12–17 (%)",
+    "Ruralidad 12–17 (%)",
+    "Años de estudio 19+",
+    "Sin fuente mejorada de agua 12–17 (%)"
+  ],
+  "feature_universes": {
+    "no_asistencia_12_17_pct": "Población12–17 de cuadro de asistencia, excluidos exterior/no declaración según notaINE",
+    "ruralidad_12_17_pct": "Población12–17 del mismo cuadro de asistencia",
+    "anios_estudio_19_mas": "Población19+ de cuadro de promedio de estudio",
+    "sin_agua_mejorada_12_17_pct": "Población12–17 en viviendas particulares con personas presentes; complemento de fuente mejorada"
+  },
+  "standardization": {
+    "method": "StandardScaler media y desviación poblacional por variable, ddof0",
+    "mean": {
+      "no_asistencia_12_17_pct": 9.374548254875053,
+      "ruralidad_12_17_pct": 72.29229093098962,
+      "anios_estudio_19_mas": 8.795708615848694,
+      "sin_agua_mejorada_12_17_pct": 18.689099186880465
+    },
+    "scale": {
+      "no_asistencia_12_17_pct": 6.350563655962787,
+      "ruralidad_12_17_pct": 32.18865892189072,
+      "anios_estudio_19_mas": 1.5509615301195887,
+      "sin_agua_mejorada_12_17_pct": 14.847173853814837
+    },
+    "imputation": "Ninguna"
+  },
+  "algorithm": "KMeans",
+  "municipal_weights": "Iguales; una jurisdicción una observación",
+  "random_state": 2026,
+  "n_init": 20,
+  "candidate_k": [
+    {
+      "k": 2,
+      "silhouette": 0.2668539729516381,
+      "min_group_n": 141,
+      "accepted": true
+    },
+    {
+      "k": 3,
+      "silhouette": 0.3132502568608253,
+      "min_group_n": 64,
+      "accepted": true
+    },
+    {
+      "k": 4,
+      "silhouette": 0.31888624887421496,
+      "min_group_n": 41,
+      "accepted": true
+    },
+    {
+      "k": 5,
+      "silhouette": 0.31872660500203587,
+      "min_group_n": 15,
+      "accepted": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.2953732632959628,
+      "min_group_n": 15,
+      "accepted": true
+    }
+  ],
+  "selected_k": 4,
+  "silhouette": 0.31888624887421496,
+  "minimum_profile_n_rule": 10,
+  "minimum_profile_n_rule_is_project_choice": true,
+  "silhouette_margin_vs_next": 0.00015964387217909382,
+  "near_tie": "k4 yk5 casiempatan; el máximo numérico no prueba un número verdadero de perfiles",
+  "stability_seeds": [
+    {
+      "seed": 2027,
+      "adjusted_rand_index_vs_2026": 0.9827554412956023
+    },
+    {
+      "seed": 2028,
+      "adjusted_rand_index_vs_2026": 0.9921994073335334
+    }
+  ],
+  "stability_scope": "ARI explora sensibilidad de inicialización, no estabilidad temporal ni validez causal",
+  "pca_explained_variance_ratio": [
+    0.4806732375664838,
+    0.2540103928075233
+  ],
+  "pca_explained_variance": [
+    0.4806732375664838,
+    0.2540103928075233
+  ],
+  "candidates": [
+    {
+      "k": 2,
+      "silhouette": 0.2668539729516381,
+      "min_group_n": 141,
+      "accepted": true
+    },
+    {
+      "k": 3,
+      "silhouette": 0.3132502568608253,
+      "min_group_n": 64,
+      "accepted": true
+    },
+    {
+      "k": 4,
+      "silhouette": 0.31888624887421496,
+      "min_group_n": 41,
+      "accepted": true
+    },
+    {
+      "k": 5,
+      "silhouette": 0.31872660500203587,
+      "min_group_n": 15,
+      "accepted": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.2953732632959628,
+      "min_group_n": 15,
+      "accepted": true
+    }
+  ],
+  "initializer_ari": {
+    "2027": 0.9827554412956023,
+    "2028": 0.9921994073335334
+  },
+  "pca_two_components_cumulative": 0.7346836303740071,
+  "centroids_standardized_ordered": [
+    [
+      -0.4391464150467772,
+      -1.4876757236026843,
+      0.8806463030055389,
+      -0.6052449563961698
+    ],
+    [
+      -0.33934175984015513,
+      0.457847355420519,
+      0.04670733003382395,
+      -0.24076251176681304
+    ],
+    [
+      -0.08177964243679449,
+      0.39366570748393764,
+      0.27887566313544065,
+      2.005681431294826
+    ],
+    [
+      1.4704702804547392,
+      0.539160008373923,
+      -1.4441261881002807,
+      0.08248987442520195
+    ]
+  ],
+  "profiles": [
+    {
+      "perfil_numero": 1,
+      "perfil": "Perfil 1",
+      "n_municipios": 82,
+      "poblacion_12_17_educacion": 860176,
+      "no_asistencia_12_17_n": 37415,
+      "no_asistencia_media_municipal_pct": 6.585720991832639,
+      "ruralidad_media_pct": 24.406004477565848,
+      "anios_estudio_media": 10.161557153452323,
+      "sin_agua_mejorada_media_pct": 9.702922095121952,
+      "tasa_censal_12_17_agrupada_pct": 4.349691225981659
+    },
+    {
+      "perfil_numero": 2,
+      "perfil": "Perfil 2",
+      "n_municipios": 157,
+      "poblacion_12_17_educacion": 229156,
+      "no_asistencia_12_17_n": 17483,
+      "no_asistencia_media_municipal_pct": 7.219536807883712,
+      "ruralidad_media_pct": 87.02978329291038,
+      "anios_estudio_media": 8.868149887905755,
+      "sin_agua_mejorada_media_pct": 15.114456317197455,
+      "tasa_censal_12_17_agrupada_pct": 7.629300563808061
+    },
+    {
+      "perfil_numero": 3,
+      "perfil": "Perfil 3",
+      "n_municipios": 41,
+      "poblacion_12_17_educacion": 55202,
+      "no_asistencia_12_17_n": 4775,
+      "no_asistencia_media_municipal_pct": 8.855201429818315,
+      "ruralidad_media_pct": 84.96386211843489,
+      "anios_estudio_media": 9.228234041058352,
+      "sin_agua_mejorada_media_pct": 48.46780009268293,
+      "tasa_censal_12_17_agrupada_pct": 8.65004891127133
+    },
+    {
+      "perfil_numero": 4,
+      "perfil": "Perfil 4",
+      "n_municipios": 63,
+      "poblacion_12_17_educacion": 120621,
+      "no_asistencia_12_17_n": 24976,
+      "no_asistencia_media_municipal_pct": 18.712863375104327,
+      "ruralidad_media_pct": 89.64712854486157,
+      "anios_estudio_media": 6.555924453466913,
+      "sin_agua_mejorada_media_pct": 19.913840693650794,
+      "tasa_censal_12_17_agrupada_pct": 20.706178857744504
+    }
+  ],
+  "profile_order": "Ascendente por media municipal de no asistencia observada2024; no riesgo futuro",
+  "nonattendance_used_to_fit_clusters": true,
+  "nonattendance_separation_is_not_independent_validation": true,
+  "national_census_nonattendance_pct": 6.690800731926128,
+  "municipal_rate_mean_unweighted_pct": 9.374548254875053,
+  "eh2025_people_linked_to_municipalities": false,
+  "individual_records_exported": false,
+  "current_municipality_from_EH_inferred": false,
+  "map": {
+    "polygon_traces_per_view": 429,
+    "total_traces": 863,
+    "external_requests_required": false,
+    "map_html": "mapa_municipal_2024.html",
+    "map_png": [
+      "mapa_municipal_2024.png",
+      "mapa_municipal_tasa_2024.png"
+    ]
+  },
+  "interactive_visualizations": [
+    "mapa_municipal_2024.html",
+    "pca_municipal_2024.html",
+    "perfiles_municipales_2024.html"
+  ],
+  "geography_note": "Municipios/TIOC de tabulados Censo2024; capa UDAPE Atlas2025 referencial no legal",
+  "geometry_license_note": "Acceso público con atribución; no se asume licencia abierta de redistribución",
+  "interpretation_limitations": [
+    "Complemento2024 separado de la encuesta EH2025; no son tasas municipales EH2025.",
+    "La tasa observada es parte del ajuste y no es predicción de abandono longitudinal.",
+    "Los contextos agregados no caracterizan a cada persona ni demuestran causalidad.",
+    "Los denominadores de educación y servicios son distintos y no se intercambian.",
+    "Fuente de agua mejorada no certifica potabilidad.",
+    "El k4 seleccionado casiempata conk5; los perfiles dependen de variables y estandarización.",
+    "La geometría no define límites legales; no calcular superficies ni asignar personas con ella."
+  ],
+  "inputs_unchanged": true,
+  "files": {
+    "pca_municipal_2024.png": {
+      "bytes": 163902,
+      "sha256": "079a10e37ae39c1ea7a3f364ae4361a261815c2158348c693d592c71bf072465"
+    },
+    "perfiles_municipales.csv": {
+      "bytes": 703,
+      "sha256": "52aa71f2d1290c1fafa84a1662ef82eceb3fcd2800d1751df2117dff8b729035"
+    },
+    "perfiles_municipales_2024.png": {
+      "bytes": 113272,
+      "sha256": "83d445454232059394816a20047e79d3f24ada6532cc8d1a4208efd9c20cfd71"
+    },
+    "LEEME_DATASET_MUNICIPAL.md": {
+      "bytes": 1162,
+      "sha256": "0d35d88787eb2960501211df441b2a935783f3c031330caeafadf27944d6a393"
+    },
+    "dataset_municipal_procesado_2024.csv": {
+      "bytes": 195210,
+      "sha256": "e8d0ab4b935cc94a86dc43e548bd96c2a15390afa9bd798bcb68db285597c472"
+    },
+    "centroides_municipales_estandarizados.csv": {
+      "bytes": 483,
+      "sha256": "84aac5efea5a0dbdb2d25a226ecddcbeeaa906c1e90f8818f052d1b66452a96b"
+    },
+    "diccionario_dataset_municipal_procesado.csv": {
+      "bytes": 16833,
+      "sha256": "01ff874160d152be12aea35e94cb1eee818a621d063b1a561a6d05a4996336c5"
+    },
+    "mapa_municipal_2024.html": {
+      "bytes": 11971636,
+      "sha256": "9161206359302604a138f21bf7f5f29db26890d8aa815ca6eb96073bf9b02fad"
+    },
+    "pca_municipal_2024.html": {
+      "bytes": 4870945,
+      "sha256": "396ca529ef9e4b18610c4736573145e15860d3c7a9a24ba195406b34c0cdc984"
+    },
+    "seleccion_k_municipal.csv": {
+      "bytes": 185,
+      "sha256": "e7236f053c4ec1ceadddf0b430f512940a6dc38c414941ff20d1f65bc87cbbbf"
+    },
+    "mapa_municipal_2024.png": {
+      "bytes": 316945,
+      "sha256": "d84f2502fdeb572afe33b447a337a4138f94de03b22e60a66b6ac0f4a223d624"
+    },
+    "mapa_municipal_tasa_2024.png": {
+      "bytes": 340258,
+      "sha256": "736b8976b6a8f1218e729904195f82b7ace8f373c4664d0587d7189b11748629"
+    },
+    "dataset_municipal_procesado_2024.parquet": {
+      "bytes": 121486,
+      "sha256": "a31da1a615794cf136c84c07e89a9d497c8356e62c798aece6b5bfd7c2b190d5"
+    },
+    "perfiles_municipales_2024.html": {
+      "bytes": 4825642,
+      "sha256": "9689ac9584869e51025bd3f7ca9c825c31c184cfb7b272fc9615c9e6bcb9d33f"
+    }
+  }
+}

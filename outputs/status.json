@@ -1,0 +1,49 @@
+{
+  "catalog_identity": "BOL-INE-EH-2025",
+  "metadata_access_date": "2026-11-15",
+  "microdata_download_date": "2026-11-15",
+  "download_source_verified": true,
+  "source_verification_method": "Procedencia ANDA y fecha declaradas por el usuario; estructura contrastada con metadatos por separado.",
+  "case": 1,
+  "research_outcome": "No asistencia educativa, no abandono longitudinal",
+  "dictionary_variables": 493,
+  "catalog_files": [
+    "EH2025_Persona",
+    "EH2025_Vivienda",
+    "EH2025_Seguridad_Alimentaria",
+    "EH2025_Gastos_Alimentarios",
+    "EH2025_Gastos_No_Alimentarios",
+    "EH2025_Equipamiento",
+    "EH2025_Discriminacion"
+  ],
+  "required_microdata": {
+    "EH2025_Persona": {
+      "available": true,
+      "relative_path": "data/raw/EH2025_Persona.sav",
+      "format": "sav",
+      "sha256": "0dc06e6e6191699e9d58d6654e9909c096a88b2310a4bba3c68ebe87a98d8ba8"
+    },
+    "EH2025_Vivienda": {
+      "available": true,
+      "relative_path": "data/raw/EH2025_Vivienda_1.sav",
+      "format": "sav",
+      "sha256": "987fb15c79cb73f026bd6533752bfe8617076f534c85a95c5aa2ef226d2c98a5"
+    }
+  },
+  "status": "analysis_completed_publication_pending",
+  "real_models_trained": true,
+  "municipal_clustering": "completed_343_municipalities_TIOC_Censo2024_complement",
+  "github_publication": "not_published",
+  "eda_completed": true,
+  "interactive_visualizations": 13,
+  "descriptive_visualizations": 10,
+  "supervised_models": [
+    "random_forest",
+    "xgboost"
+  ],
+  "municipal_source_year": 2024,
+  "municipality_assignment_to_EH_persons": false,
+  "public_processed_dataset": "outputs/municipal/dataset_municipal_procesado_2024.parquet",
+  "individual_processed_dataset": "separate_restricted_academic_complement",
+  "report": "docs/Informe_Caso1_EH2025_Final.pdf"
+}

@@ -1,0 +1,80 @@
+{
+  "selected_model": "xgboost",
+  "selection_was_prior_to_holdout_metrics": true,
+  "threshold": 0.5,
+  "holdout_n": 945,
+  "holdout_positive_n": 34,
+  "holdout_positive_prevalence_weighted": 0.0327136222021841,
+  "selected_ap_lift_over_prevalence": 3.3494680370865835,
+  "observations": [
+    "La elección se basó en Average Precision ponderada de validación cruzada, no en la reserva.",
+    "Al umbral fijo 0.5, la reserva no contiene verdaderos positivos detectados por ninguno de los modelos.",
+    "La exactitud debe leerse junto a la prevalencia, recall, F1 y exactitud balanceada; una clase dominante puede producir exactitud alta sin detección positiva.",
+    "El ordenamiento de scores mejora la referencia de prevalencia, pero por sí solo no valida una herramienta operativa al umbral fijado.",
+    "La reserva contiene 34 casos positivos; no se estimaron intervalos de confianza ni significación de diferencias entre modelos.",
+    "La partición por UPM evalúa rendimiento en UPM reservadas de la misma encuesta, no validación temporal ni predicción de abandono futuro.",
+    "Cualquier estudio de umbrales debe realizarse dentro de entrenamiento/validación y confirmarse con una nueva reserva independiente.",
+    "La importancia de una variable no informa la dirección del vínculo ni identifica un efecto causal."
+  ],
+  "importance_definitions": {
+    "random_forest": "Reducción normalizada de impureza acumulada en los árboles; puede favorecer variables continuas o de alta cardinalidad.",
+    "xgboost": "Gain normalizado por variable transformada, valor predeterminado comprobado en XGBoost 3.4.1; se agregan las columnas one-hot por variable de origen.",
+    "comparison": "Las definiciones de importancia no comparten escala sustantiva; la suma por categorías y los predictores correlacionados condicionan la lectura."
+  },
+  "importance_leaders": {
+    "random_forest": [
+      {
+        "variable": "yhogpc",
+        "label": "Ingreso del hogar por persona",
+        "importance": 0.2078698648803296
+      },
+      {
+        "variable": "depto",
+        "label": "Departamento",
+        "importance": 0.1254281018500026
+      },
+      {
+        "variable": "s01a_03",
+        "label": "Edad",
+        "importance": 0.1154574907482126
+      },
+      {
+        "variable": "hh_totper",
+        "label": "Número de miembros del hogar",
+        "importance": 0.1072989247353969
+      },
+      {
+        "variable": "hh_s06a_07",
+        "label": "Fuente de agua",
+        "importance": 0.104720571546133
+      }
+    ],
+    "xgboost": [
+      {
+        "variable": "depto",
+        "label": "Departamento",
+        "importance": 0.2199764186516404
+      },
+      {
+        "variable": "hh_s06a_07",
+        "label": "Fuente de agua",
+        "importance": 0.1504881540313363
+      },
+      {
+        "variable": "area",
+        "label": "Área urbana o rural",
+        "importance": 0.1453089006245136
+      },
+      {
+        "variable": "hh_s06a_10",
+        "label": "Desagüe del servicio sanitario",
+        "importance": 0.1404881812632084
+      },
+      {
+        "variable": "hh_s06a_09",
+        "label": "Tipo de servicio sanitario",
+        "importance": 0.1320743453688919
+      }
+    ]
+  }
+}

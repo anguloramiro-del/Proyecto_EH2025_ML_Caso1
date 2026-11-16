@@ -1,0 +1,136 @@
+{
+  "review_date": "2026-11-15",
+  "real_data_ingestion": "passed",
+  "source_modules_and_schema": "seven_matched",
+  "join_rows_and_weight_invariance": "passed",
+  "model_group_overlap": false,
+  "models_fitted": [
+    "random_forest",
+    "xgboost"
+  ],
+  "survey_manual_and_independent_checks": "passed",
+  "notebook_json_and_code_syntax": "passed; all10 code cells executed with exact EH numerical reproduction",
+  "pdf_pages": 15,
+  "docx_render_all_pages_inspected": true,
+  "native_office_rendering": "Not tested in Microsoft Word; PDF and PNG rendered with packaged LibreOffice",
+  "a11y_counts": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "browser": {
+    "status": "passed",
+    "charts": 13,
+    "checked": [
+      {
+        "file": "outputs/figures/01_mapa_no_asistencia.html",
+        "traces": 85,
+        "visible": 85
+      },
+      {
+        "file": "outputs/figures/02_area_sexo_ic.html",
+        "traces": 2,
+        "visible": 2
+      },
+      {
+        "file": "outputs/figures/03_edad_area_ic.html",
+        "traces": 2,
+        "visible": 2
+      },
+      {
+        "file": "outputs/figures/04_edad_tasa_ic.html",
+        "traces": 1,
+        "visible": 1
+      },
+      {
+        "file": "outputs/figures/05_clusters_pca_centroides.html",
+        "traces": 4,
+        "visible": 4
+      },
+      {
+        "file": "outputs/figures/06_clusters_perfiles.html",
+        "traces": 1,
+        "visible": 1
+      },
+      {
+        "file": "outputs/figures/07_clusters_tasas_ic.html",
+        "traces": 4,
+        "visible": 4
+      },
+      {
+        "file": "outputs/model_evaluation/figures/confusion_matrices.html",
+        "traces": 4,
+        "visible": 4
+      },
+      {
+        "file": "outputs/model_evaluation/figures/feature_importances.html",
+        "traces": 2,
+        "visible": 2
+      },
+      {
+        "file": "outputs/model_evaluation/figures/roc_precision_recall.html",
+        "traces": 4,
+        "visible": 4
+      },
+      {
+        "file": "outputs/municipal/mapa_municipal_2024.html",
+        "traces": 863,
+        "visible": 430,
+        "profile_visible": 433,
+        "hover_contains_code": true
+      },
+      {
+        "file": "outputs/municipal/pca_municipal_2024.html",
+        "traces": 5,
+        "visible": 5
+      },
+      {
+        "file": "outputs/municipal/perfiles_municipales_2024.html",
+        "traces": 1,
+        "visible": 1
+      }
+    ],
+    "portal_options": 13,
+    "portal_selector": "passed",
+    "eda_loaded": true,
+    "javascript_errors": [],
+    "external_network_requests": []
+  },
+  "publication": "not_published",
+  "municipal_case_requirement": "completed:343municipalities/TIOC,Censo2024 official complementary source;noEHmunicipalassignment",
+  "public_identifier_scan": "passed; nooriginal folio values in public textual artifacts",
+  "staged_survey_tests": "3 passed",
+  "policy_alignment_revision": "Problema social, función de cada herramienta y matriz evidencia decisión acción indicador; piloto propuesto no aplicado",
+  "policy_measurement": "Cohortes iniciales separadas, día0 individual, estados no confirmados y periodo lectivo definidos",
+  "numeric_analysis_unchanged": true,
+  "portal_links": "13 charts browser-tested offline; no JavaScript errors or external requests",
+  "notebook_execution": "outputs/notebook_execution_audit.json",
+  "municipal_processed_dataset": {
+    "rows": 343,
+    "columns": 47,
+    "csv_parquet_exact": true,
+    "groups": [
+      82,
+      157,
+      41,
+      63
+    ]
+  },
+  "individual_processed_dataset": {
+    "rows": 4731,
+    "minimized_columns": 12,
+    "design_columns": 14,
+    "separate_restricted_academic_package": true
+  },
+  "post_notebook_verification": "municipal HTML selector title/hover and portal layout corrected, regenerated and browser-tested; finalize metadata refreshed",
+  "synthetic_ingestion_and_model_checks": "passed",
+  "report_document": "docs/Informe_Caso1_EH2025_Final.docx",
+  "report_pdf": "docs/Informe_Caso1_EH2025_Final.pdf",
+  "web_upload_limits": {
+    "files_before_manifest": 126,
+    "first_batch_files": 60,
+    "second_batch_files": 67,
+    "max_file_mib": 11.417,
+    "all_under25mib": true
+  }
+}

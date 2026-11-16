@@ -1,0 +1,46 @@
+{
+  "person_source": "EH2025_Persona.parquet",
+  "housing_source": "EH2025_Vivienda.parquet",
+  "person_rows": 39485,
+  "housing_rows": 12726,
+  "joined_rows": 39485,
+  "join": "LEFT JOIN many-to-one on folio",
+  "person_key": [
+    "folio",
+    "nro"
+  ],
+  "household_key": [
+    "folio"
+  ],
+  "null_person_keys": 0,
+  "null_household_keys": 0,
+  "duplicate_person_key_groups": 0,
+  "duplicate_household_key_groups": 0,
+  "unmatched_person_rows": 0,
+  "source_weight_sum": 11980604.999999478,
+  "joined_weight_sum": 11980604.999999478,
+  "row_and_weight_invariance": true,
+  "columns": [
+    "folio",
+    "nro",
+    "depto",
+    "area",
+    "s01a_02",
+    "s01a_03",
+    "cmasi",
+    "upm",
+    "estrato",
+    "factor",
+    "yhogpc",
+    "s03a_04",
+    "s03b_10",
+    "s03b_11",
+    "s03b_12",
+    "niv_ed",
+    "hh_totper",
+    "hh_s06a_07",
+    "hh_s06a_09",
+    "hh_s06a_10",
+    "hh_s06a_12"
+  ]
+}

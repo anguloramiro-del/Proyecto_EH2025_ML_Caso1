@@ -1,0 +1,13 @@
+cluster,variable,centro_estandarizado
+Grupo 1,Edad,-0.17562360
+Grupo 1,Log ingreso per cápita,-1.44922116
+Grupo 1,Tamaño del hogar,0.02966671
+Grupo 2,Edad,0.06182603
+Grupo 2,Log ingreso per cápita,-0.31683442
+Grupo 2,Tamaño del hogar,1.61443626
+Grupo 3,Edad,-0.89152687
+Grupo 3,Log ingreso per cápita,0.41265596
+Grupo 3,Tamaño del hogar,-0.36258080
+Grupo 4,Edad,0.97391701
+Grupo 4,Log ingreso per cápita,0.46403250
+Grupo 4,Tamaño del hogar,-0.46522983

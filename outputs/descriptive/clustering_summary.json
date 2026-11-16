@@ -1,0 +1,55 @@
+{
+  "unit": "individuos de 12–17 años con etiqueta conocida",
+  "selected_k": 4,
+  "silhouette_unweighted_sample": 0.28685938037969244,
+  "candidate_k": [
+    {
+      "k": 2,
+      "silhouette_unweighted_sample": 0.25898908826896244,
+      "min_group_sample_n": 1887,
+      "accepted": true
+    },
+    {
+      "k": 3,
+      "silhouette_unweighted_sample": 0.28001042613004984,
+      "min_group_sample_n": 1221,
+      "accepted": true
+    },
+    {
+      "k": 4,
+      "silhouette_unweighted_sample": 0.28685938037969244,
+      "min_group_sample_n": 738,
+      "accepted": true
+    },
+    {
+      "k": 5,
+      "silhouette_unweighted_sample": 0.2602049754450191,
+      "min_group_sample_n": 554,
+      "accepted": true
+    }
+  ],
+  "features": [
+    "edad",
+    "log1p del ingreso per cápita",
+    "tamaño del hogar"
+  ],
+  "target_used_to_fit": false,
+  "geography_used_to_fit": false,
+  "preprocessing": "Negativos/no finitos a faltante; mediana muestral no ponderada para imputación; log1p ingreso; estandarización ponderada.",
+  "weighted_kmeans": true,
+  "selection": "Mayor silhouette no ponderada sobre hasta 2000 registros, semilla 2026, entre k=2–5 con cada grupo n>=30.",
+  "pca": "PCA ponderado de las tres variables estandarizadas; solo centroides agregados publicados.",
+  "pca_explained_variance": [
+    0.42466179787024827,
+    0.32828639691105965,
+    0.24705180521869205
+  ],
+  "cluster_labels": "Ordenados por ingreso medio, no por riesgo; números sin significado ordinal de política.",
+  "interpretation_limitations": [
+    "Segmentación descriptiva dependiente de variables y transformaciones; no diagnóstico ni riesgo causal.",
+    "Silhouette mide separación geométrica, no validez causal ni estabilidad temporal.",
+    "Las tasas dentro de grupos aprendidos son exploratorias; los IC de razón ajustados por los dos estratos solitarios no incorporan incertidumbre de la selección de k ni del aprendizaje de grupos.",
+    "No es clustering municipal; no se identifica municipio de residencia actual.",
+    "Las filas de personas y sus coordenadas PCA no se exportan en archivos públicos."
+  ]
+}
