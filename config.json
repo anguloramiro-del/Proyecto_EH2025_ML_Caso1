@@ -1,0 +1,18 @@
+{
+  "year": 2025,
+  "catalog": "https://anda.ine.gob.bo/index.php/catalog/256",
+  "case": 1,
+  "age_min": 12,
+  "age_max": 17,
+  "target": "inasistencia",
+  "target_map": {
+    "1": 1,
+    "2": 0,
+    "3": 1
+  },
+  "split_group": "upm",
+  "weight": "factor",
+  "municipal_clustering_authorized_by_design": false,
+  "minimum_cell_n": 30,
+  "geojson_path": "data/bolivia_departamentos.geojson"
+}

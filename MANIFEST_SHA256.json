@@ -1,0 +1,506 @@
+{
+  ".gitignore": {
+    "bytes": 290,
+    "sha256": "5994034dbce5c5461c135da399707530228031e6e1c279dcff755351ae088d35"
+  },
+  "README.md": {
+    "bytes": 11088,
+    "sha256": "6bbef9abfc17df7a0efccfee91f0777197658474a88779e27c578c09e774e604"
+  },
+  "checks/check_ingestion.py": {
+    "bytes": 9002,
+    "sha256": "326b4debee4f386694dc95a8985a7d1e98fe0fdb3b48fafa204f2d1fb82e8467"
+  },
+  "checks/check_modeling.py": {
+    "bytes": 3616,
+    "sha256": "3a3aa5a20c5d806491c4687bb05ae875d215a7dc2678d1e038f7b32896f049ed"
+  },
+  "config.json": {
+    "bytes": 393,
+    "sha256": "3c2350da0c1c64f48818e8513dc3f0c9b1ed259df68f4515b65d049ed8750885"
+  },
+  "data/README.md": {
+    "bytes": 855,
+    "sha256": "16d3f3a51cb5d5bf036c99af927774c90cd0d6fc46f969b0d1af6f3c1178a83d"
+  },
+  "data/bolivia_departamentos.geojson": {
+    "bytes": 2195064,
+    "sha256": "e848f97e5386aac1b442189d9638e1e5138e0ab0c4c0a91a63066fda318a99d6"
+  },
+  "data/bolivia_municipios_2024.geojson": {
+    "bytes": 4064991,
+    "sha256": "fc3d5aa12eeb982408c97324980a7dd1bfcac1e5f04a680e11133841e8a18a87"
+  },
+  "data/download_cartography.py": {
+    "bytes": 14489,
+    "sha256": "8ab477b20b15240bd37df2f1b5af9d44e7647318ade92863706154c4f8fb226a"
+  },
+  "data/metadata/EH2025_Persona_sav_metadata.json": {
+    "bytes": 310415,
+    "sha256": "4bd9fbed0d24d4234877f35e07d97fa8c628282e3848ce41b4538524157c40f2"
+  },
+  "data/metadata/EH2025_Vivienda_sav_metadata.json": {
+    "bytes": 12977,
+    "sha256": "dbabff1746dd2bbdf2f6de7670fd7889f880847a02c3defebda152fdaeb0edf2"
+  },
+  "data/metadata/cartography_api_response.json": {
+    "bytes": 1904,
+    "sha256": "59120db2afdc697821a764162e10214327b7e49ab42316c79ca931c675553ba0"
+  },
+  "data/metadata/cartography_source.json": {
+    "bytes": 7452,
+    "sha256": "e25f2033c54e7ce1d982601333c7178fbc9d815b1093a95d6a8ec2d4c78530e8"
+  },
+  "data/metadata/ddi_EH2025.xml": {
+    "bytes": 2689149,
+    "sha256": "fc7c328e656a786c42dea06b82cdd5a351dc6c422e7e6018b0b6b12c3220b407"
+  },
+  "data/metadata/design_EH2025.pdf": {
+    "bytes": 604303,
+    "sha256": "c2e335013a7a9d872f1661c10a04cba98a257e3cdb98b435f7b719b78f984b61"
+  },
+  "data/metadata/dictionary_verified.json": {
+    "bytes": 1004598,
+    "sha256": "6482f3906dd03e2c2ab6c8d2c7137e93f7aaf10eb0ec05cb0126a8014de0eed5"
+  },
+  "data/metadata/metadata_EH2025.json": {
+    "bytes": 44059,
+    "sha256": "764644479bed71e8275bd5cf057d6f1ffc407ed530dfb9b0c464bef4fc0fcd89"
+  },
+  "data/metadata/received_microdata_inventory.json": {
+    "bytes": 4196,
+    "sha256": "4b409505f1227d2199101ae35119c1d4252d7f7fb98fd6859af1bc4bd656e699"
+  },
+  "data/municipal/3020502_asistencia.xlsx": {
+    "bytes": 951340,
+    "sha256": "645f3d8eb30c738d6129cef24ef55ea550cf06d33a0dfe3c3cc4921f86dc105c"
+  },
+  "data/municipal/3020504_promedio_estudio.xlsx": {
+    "bytes": 1160275,
+    "sha256": "aef7dd868358f56c12153d8e099ef8c938469e82a231b3acba2ad393b496a116"
+  },
+  "data/municipal/3110104_escolaridad_12_17.xlsx": {
+    "bytes": 749674,
+    "sha256": "d3e9260a8168f03303bfafd66806e97423b893da895cea713a7c1c2a51b10c2f"
+  },
+  "data/municipal/3110107_agua.xlsx": {
+    "bytes": 768567,
+    "sha256": "d9ca55002c840c32c0818e95986c32cde2d984d02e1d3d24241a8e6cfc953c65"
+  },
+  "data/municipal/3110108_saneamiento.xlsx": {
+    "bytes": 2853571,
+    "sha256": "4412e1ad3fc9847644fc02c04941a7c0e07d98f352d39740bed55f7c26362b6e"
+  },
+  "data/municipal/3110109_electricidad.xlsx": {
+    "bytes": 772570,
+    "sha256": "02d22e9874fbd55704866259df63cb598ae46e8560630aad8633f8f461789df2"
+  },
+  "data/municipal/LEEME_FUENTE_MUNICIPAL.md": {
+    "bytes": 5133,
+    "sha256": "fce2e135c65eeec561f5e6634bc3ae2528c52862121c6786da9474fe32a0e2f1"
+  },
+  "data/municipal/aliases_municipales_auditados.json": {
+    "bytes": 2247,
+    "sha256": "f7672149829a7ea9779c5961cb4475d86308c2a81225bd5de7695acdb44121ef"
+  },
+  "data/municipal/diccionario_municipios_censo2024.csv": {
+    "bytes": 9341,
+    "sha256": "81cf1c270ba2af2cdcb8cc3d66f5cabb0895fb2f56df79fb9a578d79e853e4c7"
+  },
+  "data/municipal/download_manifest.json": {
+    "bytes": 1401,
+    "sha256": "d65e66393af46406a237cda273653c70a66d4e6fcd3c2a59c87cdabde6c1a11c"
+  },
+  "data/municipal/equivalencias_municipios_ine_udape.csv": {
+    "bytes": 66630,
+    "sha256": "9bc5c13f59211e75123bbf92ef6d919c9d61321014249cdc8b7043007b4cd6dc"
+  },
+  "data/municipal/municipios_censo2024_indicadores.csv": {
+    "bytes": 128578,
+    "sha256": "78d0872e49c887787f11520ea8118b774de09e1cd0f9ce11ee67ec6f77372463"
+  },
+  "data/municipal/udape_municipal_geometry_audit.json": {
+    "bytes": 2411,
+    "sha256": "5987f1a0cc23c0321b0f896ec456dc48baafb1d45e16a9e0385040d4ca2fdfe3"
+  },
+  "data/municipal/validacion_municipios_censo2024.json": {
+    "bytes": 2777,
+    "sha256": "d1561c5685feb9ca0e683245e9cb43d574ac902f49565fb87bd794e49ec03b16"
+  },
+  "data/preparar_municipios_censo2024.py": {
+    "bytes": 17754,
+    "sha256": "9be36ad325c9702548140ae570e6a89f0b3af1764e40646598c4804103e5afac"
+  },
+  "data/prepare_udape_municipal.py": {
+    "bytes": 6753,
+    "sha256": "22df46311dd4ed397727d3fc2302ff903096394288f2b6228765618f11171e6b"
+  },
+  "data/raw/.gitkeep": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "data/source_manifest.json": {
+    "bytes": 2484,
+    "sha256": "246ca5ee464b71d29e0700bb0a399a4c0064b4d8fbf6a5bb20ed2dd3c4e43e9f"
+  },
+  "docs/Componente_municipal.md": {
+    "bytes": 6032,
+    "sha256": "07fb6a3417d5726d6ea0f660af735a353d3e0ce2cce0fc7326ea2a5c7e76fc52"
+  },
+  "docs/Dataset_individual_academico.md": {
+    "bytes": 5912,
+    "sha256": "274b87d3a0d71ad93b0cfbc3ad50cac48bcd7de5827487b9bb1180f1c5ba8631"
+  },
+  "docs/Entrega_en_GitHub.md": {
+    "bytes": 9974,
+    "sha256": "534430981523a12ff72b6026f0050f2387acb366cfac0768f8e7439e56251714"
+  },
+  "docs/Explorar_resultados.html": {
+    "bytes": 5799,
+    "sha256": "e5bac924d17eaed9e7907b1880b164a2c14b54e9a07ddb6bafb9dd5d0f074c5f"
+  },
+  "docs/Informe_Caso1_EH2025_Final.docx": {
+    "bytes": 1275909,
+    "sha256": "f31166c80f150be3472867124cfe829d9587f7a45305704f26bd2e4650ef8633"
+  },
+  "docs/Informe_Caso1_EH2025_Final.pdf": {
+    "bytes": 1440060,
+    "sha256": "2e4674207c6c626437aea40a2a402e482581ae16f31923d75277a25e375582fd"
+  },
+  "notebooks/03_Caso1_Completo.ipynb": {
+    "bytes": 9201,
+    "sha256": "e59a5a85e252ba20c0b5656bebf2980cf336df5efd2652e562f22473e89cddbf"
+  },
+  "outputs/README.md": {
+    "bytes": 884,
+    "sha256": "d7022a32f714728f97d79430ae471e04b1b9fecef5e6904f82867a4bbe38be81"
+  },
+  "outputs/browser_quality_audit.json": {
+    "bytes": 1747,
+    "sha256": "e79f67730a9db3884c0d186187a74582046321c0f5602f26614ae5a6c965168a"
+  },
+  "outputs/data_review.json": {
+    "bytes": 875,
+    "sha256": "0bae096a98ebca3c5eaa4e099172d9e911e7968a52c03fc9f189f779dea3505a"
+  },
+  "outputs/descriptive/clustering_centroides_estandarizados.csv": {
+    "bytes": 460,
+    "sha256": "046a7cefb0edc9d57922004e7ebf40688dc22fe0a65485ab8affe017ee34357e"
+  },
+  "outputs/descriptive/clustering_perfiles.csv": {
+    "bytes": 2265,
+    "sha256": "2d55f62599887ea9559e7a8d75f9c94805a48968bcc2a9cc2e299b6034fd16ca"
+  },
+  "outputs/descriptive/clustering_summary.json": {
+    "bytes": 2131,
+    "sha256": "c2b665a6ae892de0da7d803ac2994fd979973de50a322b46eb00bd1473ab79ca"
+  },
+  "outputs/descriptive/survey_design_audit.json": {
+    "bytes": 4115,
+    "sha256": "28eb2ef135c295283f5d3fc82c720e8652b6228a5996b1a7e444f9a960b4cf5b"
+  },
+  "outputs/descriptive/survey_summary.json": {
+    "bytes": 2596,
+    "sha256": "43868d4cb94ec29807f90f5efa304cde6e3e324d2598f25d851012ea90345dad"
+  },
+  "outputs/descriptive/tasas_area.csv": {
+    "bytes": 1068,
+    "sha256": "81af519bf7c49252a006321bcb72de505d4bb06f96f9507f1c1ae7bd6748e3d8"
+  },
+  "outputs/descriptive/tasas_area_sexo.csv": {
+    "bytes": 1882,
+    "sha256": "6811b35347a94f00eaa70353fbc4848b252d1c3f93c0c1a7856a13458b6c10d9"
+  },
+  "outputs/descriptive/tasas_edad.csv": {
+    "bytes": 2650,
+    "sha256": "676f89ff5fd362efeb202b7203de3c91604bbb7877d23546c58376fbcf18fc42"
+  },
+  "outputs/descriptive/tasas_nacional.csv": {
+    "bytes": 703,
+    "sha256": "a361e567e98a0e1c713aedaad558303d95ac66d5ad1a8214b0601cead27c28cb"
+  },
+  "outputs/descriptive/tasas_region.csv": {
+    "bytes": 3498,
+    "sha256": "d526176021d660043e3d0588d0b193c9d401e61b5f5069c76d8b0ef04e695693"
+  },
+  "outputs/descriptive/tasas_sexo.csv": {
+    "bytes": 977,
+    "sha256": "2ed8b87fe983ca31ff6e845becb50398f1825fd12521c1988b7257e3c2f09e32"
+  },
+  "outputs/descriptive/tasas_tramo_area.csv": {
+    "bytes": 2681,
+    "sha256": "ea92154d5e2e7d9b5a22243d89c6e1156b27dd0889c74550ab48b60882641043"
+  },
+  "outputs/descriptive/tasas_tramo_edad.csv": {
+    "bytes": 1463,
+    "sha256": "65ff607d0cecd7fde1716a483899f8475f7c4a4fc4e2093b522ad09457d1d5cb"
+  },
+  "outputs/eda_report.html": {
+    "bytes": 847981,
+    "sha256": "4bb197d1a9a718d683e774c6a3bd381516e2f094db2c462edec015af77b6d7e7"
+  },
+  "outputs/figures/01_mapa_no_asistencia.html": {
+    "bytes": 5374559,
+    "sha256": "947e5d91beee34e8ec47951d7dcfb4b1d5bf64da1fd99c0d56895e05dd472cfb"
+  },
+  "outputs/figures/01_mapa_no_asistencia.png": {
+    "bytes": 247540,
+    "sha256": "e984a72b8b4e80947dd38c40e76dd0d64f31e450a4400cc048c9107411672557"
+  },
+  "outputs/figures/02_area_sexo_ic.html": {
+    "bytes": 4827557,
+    "sha256": "254f2ebb391a2e43f19e5a8125740c0f36cdc98da2a021d4b6c364d534adc96d"
+  },
+  "outputs/figures/02_area_sexo_ic.png": {
+    "bytes": 98500,
+    "sha256": "2ba0932f159c31038e58f684453b1135d5015ea5e3133ce9dd6947030fe25b11"
+  },
+  "outputs/figures/03_edad_area_ic.html": {
+    "bytes": 4828256,
+    "sha256": "4f7ed9a9307b3ecce289e2ae66e63e5dcce70ac95cf03d794a1d22993541c339"
+  },
+  "outputs/figures/03_edad_area_ic.png": {
+    "bytes": 108660,
+    "sha256": "6c3462d2ec68327f3e4e7d16f64fce5305aeb5a2e4345cc8b56293ddcace7f01"
+  },
+  "outputs/figures/04_edad_tasa_ic.html": {
+    "bytes": 4825933,
+    "sha256": "0d251512f2201c582021a03e72f9cad58c711a375f55b3a8d962308b657a7d73"
+  },
+  "outputs/figures/04_edad_tasa_ic.png": {
+    "bytes": 141460,
+    "sha256": "c5f6e4979617e5a600ed3d88dc018b50d3537e33eb65ae4e2952d8b3ffb20eb9"
+  },
+  "outputs/figures/05_clusters_pca_centroides.html": {
+    "bytes": 4828079,
+    "sha256": "b811e9816dd8e24289c8b5d8bc7c01384083fc343120b4b3393cab47996c53ef"
+  },
+  "outputs/figures/05_clusters_pca_centroides.png": {
+    "bytes": 98821,
+    "sha256": "630440834f5d405b0dfda58eb407d45bf83ea18807d806e1ec3d25a42812d6f1"
+  },
+  "outputs/figures/06_clusters_perfiles.html": {
+    "bytes": 4825365,
+    "sha256": "75dece94bdda92007b1b0581081fec996488118923e41017e9ca791fd0c2c869"
+  },
+  "outputs/figures/06_clusters_perfiles.png": {
+    "bytes": 116251,
+    "sha256": "4c477febd5a136752a1761da6920a92816c64a9e4a923854aa064d3ebaa96b98"
+  },
+  "outputs/figures/07_clusters_tasas_ic.html": {
+    "bytes": 4828628,
+    "sha256": "8ef5f6f408f338c426c45d71e9f982a6423770c13d8cbf7bce9e57a7b49cca3a"
+  },
+  "outputs/figures/07_clusters_tasas_ic.png": {
+    "bytes": 101199,
+    "sha256": "9ac389901d7ed35754282b75a75cea873b060ba243f8a4857c3849b36a875a5a"
+  },
+  "outputs/figures/visualization_audit.json": {
+    "bytes": 4789,
+    "sha256": "1839ad59cdee2dbf42383c47d45dd32f0d97345251ebdf1cdfe99d15cb67ed93"
+  },
+  "outputs/final_quality_checks.json": {
+    "bytes": 4189,
+    "sha256": "d67aa036af783d7d4fc49b2bdd5fcb4e8eeb3fcdaebd4526ddfabf88f82553a7"
+  },
+  "outputs/join_audit.json": {
+    "bytes": 904,
+    "sha256": "9ad97ed3bbf1be4221448224b1f32764b7479079607b4509ee9bb32020382cd2"
+  },
+  "outputs/model_evaluation/feature_importance_random_forest.csv": {
+    "bytes": 305,
+    "sha256": "91ab540b223ace651e8866a7d6e0d9d7847f5f49ec0445ed1b1c787452d307bb"
+  },
+  "outputs/model_evaluation/feature_importance_xgboost.csv": {
+    "bytes": 308,
+    "sha256": "e84c655fedacc89498eeb8cd313a3f5b0eca86aed6391c3c801d012214bc4840"
+  },
+  "outputs/model_evaluation/figures/confusion_matrices.html": {
+    "bytes": 4826838,
+    "sha256": "24386cdfc6e806bd21e5cf1220f3ed570eeb243feeea1e7103a8fdf318ca5d39"
+  },
+  "outputs/model_evaluation/figures/confusion_matrices.png": {
+    "bytes": 121462,
+    "sha256": "9e60d63b275b20f353b920339cace190a036b9ccfe121afa9da9d2676dd5cd89"
+  },
+  "outputs/model_evaluation/figures/feature_importances.html": {
+    "bytes": 4825325,
+    "sha256": "49d662c3b31a4a0a4e467646174f3607d4f545d6d18f5e61a11f321e6ab96ef5"
+  },
+  "outputs/model_evaluation/figures/feature_importances.png": {
+    "bytes": 120415,
+    "sha256": "c9d52cf7f1423108a6b77e5fa3a3b0e1f19b54904f1b3947bc5951bc00bd4ecf"
+  },
+  "outputs/model_evaluation/figures/figures_manifest.json": {
+    "bytes": 862,
+    "sha256": "a7ac49d79cb391d26830ad46485d8eb5fda3c52c68ab40eac902d5b23d59d4c9"
+  },
+  "outputs/model_evaluation/figures/roc_precision_recall.html": {
+    "bytes": 4831193,
+    "sha256": "d49469e42741c5be67590395fc28fa6d64543de9ad1a518ab63ec5785a993705"
+  },
+  "outputs/model_evaluation/figures/roc_precision_recall.png": {
+    "bytes": 148785,
+    "sha256": "4c26ba6b0c9f49b055177a128aad7bc1f7ea0146d5dd447e92b933c5e5f78a44"
+  },
+  "outputs/model_evaluation/model_comparison.csv": {
+    "bytes": 587,
+    "sha256": "1e82ac678daad38c92fdff524b06cf22147b2dfaea295d56a1d07b2d9f8035fa"
+  },
+  "outputs/model_evaluation/model_interpretation.json": {
+    "bytes": 3239,
+    "sha256": "e42ebf87314d1741c1ab403f9fb7210d5ec206aabe3dadc3d8a82375f159d5a5"
+  },
+  "outputs/model_evaluation/model_metrics.json": {
+    "bytes": 55036,
+    "sha256": "fc6f221586dabf1398a39824e19ebfea1d1b89dcfbfff9b220e6517a6ab4b7c5"
+  },
+  "outputs/municipal/LEEME_DATASET_MUNICIPAL.md": {
+    "bytes": 1162,
+    "sha256": "0d35d88787eb2960501211df441b2a935783f3c031330caeafadf27944d6a393"
+  },
+  "outputs/municipal/centroides_municipales_estandarizados.csv": {
+    "bytes": 483,
+    "sha256": "84aac5efea5a0dbdb2d25a226ecddcbeeaa906c1e90f8818f052d1b66452a96b"
+  },
+  "outputs/municipal/dataset_municipal_procesado_2024.csv": {
+    "bytes": 195210,
+    "sha256": "e8d0ab4b935cc94a86dc43e548bd96c2a15390afa9bd798bcb68db285597c472"
+  },
+  "outputs/municipal/dataset_municipal_procesado_2024.parquet": {
+    "bytes": 121486,
+    "sha256": "a31da1a615794cf136c84c07e89a9d497c8356e62c798aece6b5bfd7c2b190d5"
+  },
+  "outputs/municipal/diccionario_dataset_municipal_procesado.csv": {
+    "bytes": 16833,
+    "sha256": "01ff874160d152be12aea35e94cb1eee818a621d063b1a561a6d05a4996336c5"
+  },
+  "outputs/municipal/mapa_municipal_2024.html": {
+    "bytes": 11971636,
+    "sha256": "9161206359302604a138f21bf7f5f29db26890d8aa815ca6eb96073bf9b02fad"
+  },
+  "outputs/municipal/mapa_municipal_2024.png": {
+    "bytes": 316945,
+    "sha256": "d84f2502fdeb572afe33b447a337a4138f94de03b22e60a66b6ac0f4a223d624"
+  },
+  "outputs/municipal/mapa_municipal_tasa_2024.png": {
+    "bytes": 340258,
+    "sha256": "736b8976b6a8f1218e729904195f82b7ace8f373c4664d0587d7189b11748629"
+  },
+  "outputs/municipal/municipal_summary.json": {
+    "bytes": 10847,
+    "sha256": "3a2747acdda412782df8159795b85cd12f885a20a52c782bcdfdf2c433256129"
+  },
+  "outputs/municipal/pca_municipal_2024.html": {
+    "bytes": 4870945,
+    "sha256": "396ca529ef9e4b18610c4736573145e15860d3c7a9a24ba195406b34c0cdc984"
+  },
+  "outputs/municipal/pca_municipal_2024.png": {
+    "bytes": 163902,
+    "sha256": "079a10e37ae39c1ea7a3f364ae4361a261815c2158348c693d592c71bf072465"
+  },
+  "outputs/municipal/perfiles_municipales.csv": {
+    "bytes": 703,
+    "sha256": "52aa71f2d1290c1fafa84a1662ef82eceb3fcd2800d1751df2117dff8b729035"
+  },
+  "outputs/municipal/perfiles_municipales_2024.html": {
+    "bytes": 4825642,
+    "sha256": "9689ac9584869e51025bd3f7ca9c825c31c184cfb7b272fc9615c9e6bcb9d33f"
+  },
+  "outputs/municipal/perfiles_municipales_2024.png": {
+    "bytes": 113272,
+    "sha256": "83d445454232059394816a20047e79d3f24ada6532cc8d1a4208efd9c20cfd71"
+  },
+  "outputs/municipal/seleccion_k_municipal.csv": {
+    "bytes": 185,
+    "sha256": "e7236f053c4ec1ceadddf0b430f512940a6dc38c414941ff20d1f65bc87cbbbf"
+  },
+  "outputs/notebook_execution_audit.json": {
+    "bytes": 4577,
+    "sha256": "7d8e6b321ef513c93bb1f475ffacf9bd26932f9003dac899b8aa7833cd305545"
+  },
+  "outputs/report_accessibility_audit.json": {
+    "bytes": 193,
+    "sha256": "0ed32a91172ff69d70f6a123323670f705aeab073dd8d04d279ed1148e91867b"
+  },
+  "outputs/sensitivity.json": {
+    "bytes": 348,
+    "sha256": "e6800af5a6a7366084f7db0fdb558a81554f24b17da1239f679db373415eaa0d"
+  },
+  "outputs/software_checks.json": {
+    "bytes": 210,
+    "sha256": "98974c750c7310b7187904cb7947511c7129f0a881b31d45e1e034f66bb7d9b2"
+  },
+  "outputs/status.json": {
+    "bytes": 1794,
+    "sha256": "f96dbf4e688c0d92239ca494fa98d4eb7ab4e683582945cc05e084557132d559"
+  },
+  "outputs/universe_audit.json": {
+    "bytes": 411,
+    "sha256": "aa614edfd2d8097f617578ed8516a13c239c1cd20a7d3bb545d966b77d3efb64"
+  },
+  "requirements.txt": {
+    "bytes": 1327,
+    "sha256": "09c198724d1b9c904d389956600f4dff708acfe5d8f6fcc5cc3c31f126ea9ae3"
+  },
+  "run.py": {
+    "bytes": 1113,
+    "sha256": "e4de78e5d7c1ee6dd6abe8e4d5c81cf7a0bbe0f9ff042777a0a31ccc602eb349"
+  },
+  "src/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/analysis_visuals.py": {
+    "bytes": 25749,
+    "sha256": "4cfd03296276afaffe4d55e25246995d37e71783130960dca581e18fd5683a00"
+  },
+  "src/build_report.py": {
+    "bytes": 38320,
+    "sha256": "5f51c5fb90b801c3278eb7def1fa31fab827b60fc8f7fe543d9579149cf31ba4"
+  },
+  "src/delivery_dataset.py": {
+    "bytes": 15494,
+    "sha256": "95d7f5d7fb0ab974c02b201dc782183c1e9841423601dacfc3cb325eb0ecb8fd"
+  },
+  "src/features.py": {
+    "bytes": 3152,
+    "sha256": "996162cda27758d1d44f0936a77725eb801ccdfba3ebf056dc461b32eda0dfe7"
+  },
+  "src/finalize.py": {
+    "bytes": 7934,
+    "sha256": "2fb1fbb92ad1d601293c14b2f201a5bdefc64c948aa63621e3bef1daeb928089"
+  },
+  "src/ingestion.py": {
+    "bytes": 21531,
+    "sha256": "25aecbed75860d56e5343b1f6ce7388cda7e78dca3708d2ef382617c09d960e7"
+  },
+  "src/model_figures.py": {
+    "bytes": 14339,
+    "sha256": "8d051bcefef9b1786f676b80dd50803da49a9b146deecff30708d5284b846ded"
+  },
+  "src/modeling.py": {
+    "bytes": 17426,
+    "sha256": "e97f8a2d4cda20ebf1af9869420c070c773f30a5d2ff4484ac1013521078500e"
+  },
+  "src/municipal.py": {
+    "bytes": 29953,
+    "sha256": "e1360fa101c3d80b2fb436eb28840847946a78d61a3bbf4f15f955a1f7c7da0e"
+  },
+  "src/preflight.py": {
+    "bytes": 3355,
+    "sha256": "749d450abbbba8bc16c18fbb85085253e4e59e4c09bb1b6b1741968a323f5c88"
+  },
+  "src/survey.py": {
+    "bytes": 16587,
+    "sha256": "39e6fc5ad4086b4d308c0b14ce6643ca093a80f16c878b639701e4b0b3369273"
+  },
+  "src/workflow.py": {
+    "bytes": 5542,
+    "sha256": "9825937c46b4a527c0a5e487a75103c567d3144b6d0c99e7ffc498a87f918453"
+  },
+  "tests/test_survey.py": {
+    "bytes": 2201,
+    "sha256": "6347ad91babcc31e9ff49f9eff51f9b9b98814c6bf37e67ac54c627bac994058"
+  }
+}
